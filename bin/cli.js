@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var program = require('commander');
-var logger = require('../logger.js');
+var logger = require('../lib/logger.js');
 
 program.version('v'+require('../package.json').version)
 		.description('npm包对应的命令行工具。');
